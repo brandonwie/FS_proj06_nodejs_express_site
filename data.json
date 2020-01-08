@@ -1,0 +1,19 @@
+{
+  "projects": [
+    {
+      "id": 0,
+      "project_name": "Random Quote Generator",
+      "description": "Generate random quotes with random background colors.",
+      "technologies": "HTML, CSS, JavaScript",
+      "live_link": "https://brandonwie.github.io/FS_proj01_random_quote_generator/",
+      "github_link": "https://github.com/brandonwie/FS_proj01_random_quote_generator",
+      "image_urls": [
+        "/public/img/random_quote/random_quote_main.png",
+        "/public/img/random_quote/random_quote_sub_01.png",
+        "/public/img/random_quote/random_quote_sub_02.png",
+        "/public/img/random_quote/random_quote_sub_03.png"
+      ]
+    },
+    {}
+  ]
+}

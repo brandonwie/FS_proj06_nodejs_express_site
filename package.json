@@ -1,0 +1,16 @@
+{
+  "name": "node_express_site",
+  "version": "1.0.0",
+  "description": "6th fullstack project with Treehouse",
+  "main": "app.js",
+  "dependencies": {
+    "express": "^4.17.1",
+    "pug": "^2.0.4"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Brandon Wie",
+  "license": "ISC"
+}
