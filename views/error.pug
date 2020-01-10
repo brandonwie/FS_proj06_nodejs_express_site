@@ -1,0 +1,10 @@
+extends layout
+
+block content
+  section
+    h4= `${error.message} - Status: ${error.status}`
+    a(href='/' style={color: 'tomato'}) Go Home
+    img(src='/static/img/error_404.png')
+    
+    div
+      pre= error.stack

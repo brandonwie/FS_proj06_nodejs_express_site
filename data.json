@@ -2,18 +2,73 @@
   "projects": [
     {
       "id": 0,
-      "project_name": "Random Quote Generator",
+      "project_name": "Public API Request",
+      "description": "The app requests a JSON object from the Random User Generator API and parse the data. 12 employees are listed in a grid with their infomation. It also has features as a live search funtion with multiple DOM manipulations",
+      "technologies": ["API", "JavaScript", "HTML", "CSS"],
+      "live_link": "https://brandonwie.github.io/FS_proj05_public_api_request/",
+      "github_link": "https://github.com/brandonwie/FS_proj05_public_api_request",
+      "image_urls": [
+        "/static/img/public_api/public_api_main.png",
+        "/static/img/public_api/public_api_sub_01.png",
+        "/static/img/public_api/public_api_sub_02.png",
+        "/static/img/public_api/public_api_sub_03.png"
+      ]
+    }, 
+    {
+      "id": 1,
+      "project_name": "Phrase Hunter",
+      "description": "This app is a simple phrase-guessing game. It is built with Object-Oriented JavaScript.",
+      "technologies": ["OOP", "JavaScript", "HTML", "CSS"],
+      "live_link": "https://brandonwie.github.io/FS_proj04_OOP_game/",
+      "github_link": "https://github.com/brandonwie/FS_proj04_OOP_game",
+      "image_urls": [
+        "/static/img/phrase_hunter/phrase_hunter_main.png",
+        "/static/img/phrase_hunter/phrase_hunter_sub_01.png",
+        "/static/img/phrase_hunter/phrase_hunter_sub_02.png",
+        "/static/img/phrase_hunter/phrase_hunter_sub_03.png"
+      ]
+    },
+    {
+      "id": 2,
+      "project_name": "Interactive Form",
+      "description": "This app is built with jQuery. It has interactive features such as realtime validations using RegEx and '.chage()' or '.keyup()'. Users see related items depending on what category they choose. Doubled activities are automatically disabled when user choose activities to participate.",
+      "technologies": ["jQuery", "RegEx", "JavaScript", "HTML", "CSS"],
+      "live_link": "https://brandonwie.github.io/FS_proj03_interactive_form/",
+      "github_link": "https://github.com/brandonwie/FS_proj03_interactive_form",
+      "image_urls": [
+        "/static/img/interactive_form/interactive_form_main.png",
+        "/static/img/interactive_form/interactive_form_sub_01.png",
+        "/static/img/interactive_form/interactive_form_sub_02.png",
+        "/static/img/interactive_form/interactive_form_sub_03.png"
+      ]
+    }, 
+    {
+      "id": 3,
+      "project_name": "Pagination & Filtering",
+      "description": "Paginate the given list and add list-search function",
+      "technologies": ["JavaScript", "HTML", "CSS"],
+      "live_link": "https://brandonwie.github.io/FS_proj02_pagination_filtering_list/",
+      "github_link": "https://github.com/brandonwie/FS_proj02_pagination_filtering_list",
+      "image_urls": [
+        "/static/img/pagination/pagination_main.png",
+        "/static/img/pagination/pagination_sub_01.png",
+        "/static/img/pagination/pagination_sub_02.png",
+        "/static/img/pagination/pagination_sub_03.png"
+      ]
+    },
+    {
+      "id": 4,
+      "project_name": "Quote Generator",
       "description": "Generate random quotes with random background colors.",
-      "technologies": "HTML, CSS, JavaScript",
+      "technologies": ["JavaScript", "HTML", "CSS"],
       "live_link": "https://brandonwie.github.io/FS_proj01_random_quote_generator/",
       "github_link": "https://github.com/brandonwie/FS_proj01_random_quote_generator",
       "image_urls": [
-        "/public/img/random_quote/random_quote_main.png",
-        "/public/img/random_quote/random_quote_sub_01.png",
-        "/public/img/random_quote/random_quote_sub_02.png",
-        "/public/img/random_quote/random_quote_sub_03.png"
+        "/static/img/random_quote/random_quote_main.png",
+        "/static/img/random_quote/random_quote_sub_01.png",
+        "/static/img/random_quote/random_quote_sub_02.png",
+        "/static/img/random_quote/random_quote_sub_03.png"
       ]
-    },
-    {}
+    }
   ]
 }
