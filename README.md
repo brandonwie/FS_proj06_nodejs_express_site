@@ -14,7 +14,7 @@ OS X & Linux:
 
 ```sh
 npm install
-nodemon #runs live local server
+npm start
 ```
 
 ## Release History
@@ -52,7 +52,7 @@ nodemon #runs live local server
 
   - link: `layout.pug` line 10
   - `public/css/style.css` line 156
-  - reference: [Google-Font](https://fonts.google.com/)
+  - reference: [Google Font](https://fonts.google.com/)
 
 - Apply box-shadows
 
