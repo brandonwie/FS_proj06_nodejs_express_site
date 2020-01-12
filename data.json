@@ -3,7 +3,7 @@
     {
       "id": 0,
       "project_name": "Public API Request",
-      "description": "The app requests a JSON object from the Random User Generator API and parse the data. 12 employees are listed in a grid with their infomation. It also has features as a live search funtion with multiple DOM manipulations",
+      "description": "The app requests a JSON object from the Random User Generator API and parse the data. 12 employees are listed in a grid with their information. It also has features as a live search function with multiple DOM manipulations.",
       "technologies": ["API", "JavaScript", "HTML", "CSS"],
       "live_link": "https://brandonwie.github.io/FS_proj05_public_api_request/",
       "github_link": "https://github.com/brandonwie/FS_proj05_public_api_request",
@@ -13,11 +13,11 @@
         "/static/img/public_api/public_api_sub_02.png",
         "/static/img/public_api/public_api_sub_03.png"
       ]
-    }, 
+    },
     {
       "id": 1,
       "project_name": "Phrase Hunter",
-      "description": "This app is a simple phrase-guessing game. It is built with Object-Oriented JavaScript.",
+      "description": "This app is a simple phrase-guessing game. It is built with Object-Oriented JavaScript. As this project is related to OOJS, two classes (Game and Phrase) are used with proper constructors and methods.",
       "technologies": ["OOP", "JavaScript", "HTML", "CSS"],
       "live_link": "https://brandonwie.github.io/FS_proj04_OOP_game/",
       "github_link": "https://github.com/brandonwie/FS_proj04_OOP_game",
@@ -31,7 +31,7 @@
     {
       "id": 2,
       "project_name": "Interactive Form",
-      "description": "This app is built with jQuery. It has interactive features such as realtime validations using RegEx and '.chage()' or '.keyup()'. Users see related items depending on what category they choose. Doubled activities are automatically disabled when user choose activities to participate.",
+      "description": "This app is built with jQuery. It has interactive features such as realtime validations using RegEx, '.change()' and '.keyup()' methods. Users see related items depending on what category they choose. Doubled activities are automatically disabled when user choose activities to participate.",
       "technologies": ["jQuery", "RegEx", "JavaScript", "HTML", "CSS"],
       "live_link": "https://brandonwie.github.io/FS_proj03_interactive_form/",
       "github_link": "https://github.com/brandonwie/FS_proj03_interactive_form",
@@ -41,11 +41,11 @@
         "/static/img/interactive_form/interactive_form_sub_02.png",
         "/static/img/interactive_form/interactive_form_sub_03.png"
       ]
-    }, 
+    },
     {
       "id": 3,
       "project_name": "Pagination & Filtering",
-      "description": "Paginate the given list and add list-search function",
+      "description": "This app is built with Vanilla JavaScript. It automatically paginates the data according to the lengths of given lists and has realtime searching feature. The pagination also works with the searching results.",
       "technologies": ["JavaScript", "HTML", "CSS"],
       "live_link": "https://brandonwie.github.io/FS_proj02_pagination_filtering_list/",
       "github_link": "https://github.com/brandonwie/FS_proj02_pagination_filtering_list",
@@ -59,7 +59,7 @@
     {
       "id": 4,
       "project_name": "Quote Generator",
-      "description": "Generate random quotes with random background colors.",
+      "description": "This app is built with a simple Vanilla JavaScript. It generates random quotes with random background colors. 'setInterval()' is used to make it rotate automatically every two seconds.",
       "technologies": ["JavaScript", "HTML", "CSS"],
       "live_link": "https://brandonwie.github.io/FS_proj01_random_quote_generator/",
       "github_link": "https://github.com/brandonwie/FS_proj01_random_quote_generator",

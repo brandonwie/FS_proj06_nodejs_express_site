@@ -18,17 +18,20 @@ app.use(mainRoute);
 app.use("/about", aboutRoute);
 app.use("/projects", projectRoute);
 
-// Error 
+// Error
 app.use((req, res, next) => {
-    const err = new Error("Not Found");
-    err.status = 404;
-    next(err);
-  });
-  
-  app.use((err, req, res, next) => {
-    res.locals.error = err;
-    res.status(err.status);
-    res.render("error");
-  });
+  const err = new Error("Not Found");
+  err.status = 404;
+  next(err);
+});
 
-app.listen(3000, console.log("The app is running on port 3000"));
+app.use((err, req, res, next) => {
+  res.locals.error = err;
+  res.status(err.status);
+  res.render("error");
+});
+
+app.listen(
+  3000,
+  console.log("The app is running on port:3000 - localhost:3000")
+);
