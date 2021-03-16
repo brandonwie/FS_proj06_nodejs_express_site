@@ -6,6 +6,7 @@ html(class="no-js" lang="en" dir="ltr")
     meta(name='viewport', content='width=device-width, initial-scale=1.0')
     title Portfolio Site
     link(href='https://fonts.googleapis.com/css?family=Merriweather:300,400,400i,700,800', rel='stylesheet')
+    link(href='https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap', rel='stylesheet')
     link(rel='stylesheet', href='/static/css/foundation.css')
     link(rel='stylesheet', href='/static/css/style.css')
   body
@@ -16,23 +17,15 @@ html(class="no-js" lang="en" dir="ltr")
           .cell.shrink
             img.thumbnail(src='/static/img/profile.jpeg')
           .cell.auto
-
-            //- Add your name here.
             h5 Brandon Wie (Seokhyun)
-
-            //- Add text here to describe who you are, what you do, and why you are so awesome.
             p.text-light
               | I am Brandon Wie, a self-taught full-stack JavaScript developer and a life-long learner. I love coding and am totally passionate about it. Currently I'm looking for a job as a junior developer.
-
-            //- Add about page route to the href below. 
             a(href='/about') Learn More →
 
     .off-canvas-content(data-off-canvas-content='')
       .title-bar.hide-for-large
         .title-bar-left
           button.menu-icon(type='button', data-toggle='my-info')
-
-          //- Add your name here.  This is for the mobile screen sized version.
           span.title-bar-title &nbsp;&nbsp;Brandon Wie
       block content
         
