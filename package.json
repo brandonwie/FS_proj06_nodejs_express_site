@@ -3,18 +3,14 @@
   "version": "1.0.0",
   "description": "6th fullstack project with Treehouse",
   "main": "app.js",
-  "dependencies": {
-    "express": "^4.17.1",
-<<<<<<< HEAD
-    "pug": "^3.0.2"
-=======
-    "pug": "^3.0.1"
->>>>>>> 605fe11fdc60762a5ec91c9260ab37b5a0342bd3
-  },
   "scripts": {
     "start": "node app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Brandon Wie",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "pug": "^3.0.2"
+  }
 }
