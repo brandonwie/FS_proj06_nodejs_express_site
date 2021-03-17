@@ -2,6 +2,9 @@ const express = require('express');
 
 // launch Express
 const app = express();
+
+const port = process.env.PORT || 3000;
+
 app.use(express.urlencoded({ extended: false }));
 
 // set static path
@@ -30,6 +33,6 @@ app.use((err, req, res, next) => {
 	res.render('error');
 });
 
-app.listen(process.env.PORT | 3000, () => {
+app.listen(port, () => {
 	console.log('App listening on port 3000...');
 });
