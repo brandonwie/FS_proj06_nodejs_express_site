@@ -1,4 +1,7 @@
+'use strict';
+
 const express = require('express');
+const serverless = require('serverless-http');
 // launch Express
 const app = express();
 app.use(express.urlencoded({ extended: false }));
@@ -29,7 +32,9 @@ app.use((err, req, res, next) => {
 	res.render('error');
 });
 
-app.listen(
-	3000,
-	console.log('The app is running on port:3000 - localhost:3000')
-);
+// app.listen(
+// 	3000,
+// 	console.log('The app is running on port:3000 - localhost:3000')
+// );
+
+module.exports.handler = serverless(app);
