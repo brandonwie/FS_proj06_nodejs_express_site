@@ -1,10 +1,10 @@
-const express = require("express");
+const express = require('express');
 const router = express.Router();
 
-const { projects } = require("../data.json");
+const { projects } = require('../data.json');
 
-router.get("/", (req, res) => {
-  res.render("index", { projects: projects });
+router.get('/', (req, res) => {
+	res.render('index', { projects: projects });
 });
 
 module.exports = router;
